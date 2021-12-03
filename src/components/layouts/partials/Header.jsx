@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { GAME_STATE, getSeconds } from '../custom/utils';
+import { GAME_STATE, getSeconds } from '../../helpers/utils';
 
 const Header = ({ timeLeft, gameState, endGame }) => (
   <header className="navbar">
