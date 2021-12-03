@@ -47,7 +47,7 @@ const Hero = ({ name, index }) => (
           
           <figure style={{ backgroundColor: 'transparent' }} className="avatar tile-icon">
             
-            <img src={`./hero_icons/${name.toLowerCase().replace(' ', '-')}.svg`} alt={name} />
+            <img src={`./assets/images/${name.toLowerCase().replace(' ', '-')}.svg`} alt={name} />
           
           </figure>
           
