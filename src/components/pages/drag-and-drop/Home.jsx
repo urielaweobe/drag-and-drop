@@ -4,10 +4,13 @@ import { DragDropContext } from 'react-beautiful-dnd';
 import { HEROES, COMICS } from '../../data/data';
 import { shuffle, getTimeLeft, move, GAME_STATE } from '../../helpers/utils';
 
-import Modal from '../../layouts/partials/Modal';
-import Header from '../../layouts/partials/Header';
+import Modal from './Modal';
+import Header from './Header';
 import Dropzone from './Dropzone';
-import Footer from '../../layouts/partials/Footer';
+import Footer from './Footer';
+
+import './style.css'
+import 'spectre.css';
 
 const GAME_DURATION = 1000 * 30; // 30 seconds
 

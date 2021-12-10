@@ -1,6 +1,8 @@
 import React from 'react';
 import { Droppable, Draggable } from 'react-beautiful-dnd';
 
+import './style.css'
+
 const Dropzone = ({ isDropDisabled, heroes, id }) => (
   
   <div className="column col-4">

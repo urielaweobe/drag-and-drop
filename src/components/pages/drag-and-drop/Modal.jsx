@@ -3,7 +3,7 @@ import React from 'react';
 import { GAME_STATE, getTotalScore } from '../../helpers/utils';
 
 const Modal = ({ gameState, groups, startGame, timeLeft, resetGame }) => (
-  <div className="modal modal-sm active">
+  <div className="modal  active">
     <div className="modal-overlay" />
     <div className="modal-container">
       <div className="modal-header">
