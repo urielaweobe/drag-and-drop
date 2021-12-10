@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <>
-
-            <Link to="/drag-and-drop">Drag and Drop</Link>
-            <Link to="/countdown-timer">Countdown Timer</Link>
+            <div className="container">
+                <div className="row">
+                    <div className="mx-auto mrgt5">
+                        <Link to="/drag-and-drop">Drag and Drop</Link>
+                        <Link to="/countdown-timer" className='ml-5'>Countdown Timer</Link>
+                    </div>
+                </div>
+            </div>
             
         </>
     )
